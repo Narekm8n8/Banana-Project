@@ -14,16 +14,25 @@ const NavbarWrapper = styled.div`
 const LinkWrapper = styled(NavLink)`
   display: flex;
   align-items: center;
+  
+  border-left: 4px solid transparent;
+  transition: .2s border-color linear;
+  
+`
+const BorderLine = styled.div`
+  height: 48px;
   margin-bottom: 72px;
-  transition: .2s fill linear;
+  padding: 0 50px;
 
-  :hover  {
+  :hover {
+    border-left: 4px solid rgba(137, 100, 215, 1);
+
     * {
-      fill: rgba(137, 100, 215, 1);;
+
+      fill: rgba(137, 100, 215, 1);
     }
   }
 `
-
 
 // const HomeIconStyle = styled.div`
 //   width: 48px;
@@ -40,4 +49,4 @@ const LinkWrapper = styled(NavLink)`
 //
 // `
 
-export default {NavbarWrapper, LinkWrapper}
+export default {NavbarWrapper, LinkWrapper, BorderLine}
