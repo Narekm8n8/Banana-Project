@@ -14,7 +14,6 @@ const NavbarWrapper = styled.div`
 const LinkWrapper = styled(NavLink)`
   display: flex;
   align-items: center;
-  
   border-left: 4px solid transparent;
   transition: .2s border-color linear;
   

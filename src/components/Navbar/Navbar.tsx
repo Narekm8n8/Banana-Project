@@ -1,5 +1,5 @@
 import React from 'react';
-import Styled from './stayled'
+import Styled from './styled'
 import HomeIcon from "./components/HomeIcon";
 import ShoppingIcon from "./components/ShoppingIcon";
 import CustomerIcon from "./components/CustomerIcon";
@@ -9,17 +9,17 @@ const Navbar = () => {
     return (
         <Styled.NavbarWrapper>
             <Styled.BorderLine>
-            <Styled.LinkWrapper to=''>
+            <Styled.LinkWrapper to='/header'>
                     <HomeIcon/>
             </Styled.LinkWrapper>
             </Styled.BorderLine>
             <Styled.BorderLine>
-                <Styled.LinkWrapper to='/xxx'>
+                <Styled.LinkWrapper to='/profile'>
                     <ShoppingIcon/>
                 </Styled.LinkWrapper>
             </Styled.BorderLine>
             <Styled.BorderLine>
-                <Styled.LinkWrapper to=''>
+                <Styled.LinkWrapper to='/profile'>
                     <CustomerIcon/>
                 </Styled.LinkWrapper>
             </Styled.BorderLine>
